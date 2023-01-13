@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/meta-react/static/css/main.fb5d8ee3.css",
+    "main.js": "/meta-react/static/js/main.9f345f12.js",
+    "static/media/meta-cards.png": "/meta-react/static/media/meta-cards.8bb95fb03664cf899990.png",
+    "static/media/contacts-wave.png": "/meta-react/static/media/contacts-wave.5dd0419340e5e5104f74.png",
+    "static/media/guitar-bg.jpg": "/meta-react/static/media/guitar-bg.3638978886a7b184e49e.jpg",
+    "static/media/wave-blue.png": "/meta-react/static/media/wave-blue.0ba6865ee0d4dc5e9220.png",
+    "static/media/person_02.jpg": "/meta-react/static/media/person_02.9d27abb5a8c85e4ea1f2.jpg",
+    "static/media/person_01.jpg": "/meta-react/static/media/person_01.183094fbdf0fa20bfb98.jpg",
+    "static/media/person_03.jpg": "/meta-react/static/media/person_03.14d22f4552a4e25f629a.jpg",
+    "static/media/circle.png": "/meta-react/static/media/circle.4bb85a268947579396f3.png",
+    "static/media/tab-img_03.jpg": "/meta-react/static/media/tab-img_03.bf08e28597585e8df955.jpg",
+    "static/media/artis_03.jpg": "/meta-react/static/media/artis_03.b3838fb1ee69e9c2d94d.jpg",
+    "static/media/artis_05.jpg": "/meta-react/static/media/artis_05.8724814ecbe9b665f4f4.jpg",
+    "static/media/artis_02.jpg": "/meta-react/static/media/artis_02.cd0a79968b5b4dbc6599.jpg",
+    "static/media/artis_07.jpg": "/meta-react/static/media/artis_07.7a496005eb6f5f6f217d.jpg",
+    "static/media/artis_06.jpg": "/meta-react/static/media/artis_06.d026a4e72b5c82771bf4.jpg",
+    "static/media/artis_01.jpg": "/meta-react/static/media/artis_01.637e376ccc0439263d7c.jpg",
+    "static/media/tab-img_01.jpg": "/meta-react/static/media/tab-img_01.b52b9c38bbb9d9fe66a8.jpg",
+    "static/media/rd-card_01.png": "/meta-react/static/media/rd-card_01.42c867d7cc3a40fd32c6.png",
+    "static/media/rd-card_03.png": "/meta-react/static/media/rd-card_03.b48d594d640792b31c26.png",
+    "static/media/rd-card_02.png": "/meta-react/static/media/rd-card_02.cc428b4ced3d90606353.png",
+    "static/media/artis_04.jpg": "/meta-react/static/media/artis_04.8ca62eb5ef8c24eb4ad0.jpg",
+    "static/media/tab-img_02.svg": "/meta-react/static/media/tab-img_02.82a28dbdf40113f4d19264257234139d.svg",
+    "static/media/logo-holder.svg": "/meta-react/static/media/logo-holder.31124563464273c56cac8993eb781374.svg",
+    "static/media/logo.svg": "/meta-react/static/media/logo.023f746f85fe8a6f51db21683ef87fa5.svg",
+    "static/media/telegram.svg": "/meta-react/static/media/telegram.740999d39c4d5dbb74feee54af16dc6b.svg",
+    "static/media/discord.svg": "/meta-react/static/media/discord.7beae2b1d30112e15a7a300d5ac348bc.svg",
+    "static/media/twitter.svg": "/meta-react/static/media/twitter.622d21e826f761daa799104227cf2559.svg",
+    "static/media/youtube.svg": "/meta-react/static/media/youtube.c1220af0b64351ae08e87aee2e6e52ee.svg",
+    "static/media/in.svg": "/meta-react/static/media/in.4b6be0c428697d7a9a75017dec50c469.svg",
+    "index.html": "/meta-react/index.html",
+    "main.fb5d8ee3.css.map": "/meta-react/static/css/main.fb5d8ee3.css.map",
+    "main.9f345f12.js.map": "/meta-react/static/js/main.9f345f12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb5d8ee3.css",
+    "static/js/main.9f345f12.js"
+  ]
+}
