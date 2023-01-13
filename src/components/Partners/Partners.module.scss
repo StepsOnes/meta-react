@@ -1,0 +1,21 @@
+@import "../../assets/styles/vars";
+
+.title {
+  color: $green;
+  font-family: $font-base;
+  font-size: 11px;
+  line-height: 12px;
+  margin-bottom: 50px;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  max-width: 1160px;
+}
+
+.logoholder {
+  width: 322px;
+  height: 30px;
+}

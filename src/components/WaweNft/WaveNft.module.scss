@@ -1,0 +1,54 @@
+@import "../../assets/styles/vars";
+
+.row {
+  display: flex;
+  gap: 160px;
+}
+
+.title {
+  max-width: 351px;
+  margin-bottom: 41px;
+}
+
+.about {
+  max-width: 562px;
+}
+
+.about_title {
+  color: $green;
+  font-family: $font-base;
+  font-size: 21px;
+  line-height: 32px;
+  padding-left: 22px;
+  margin-bottom: 30px;
+  position: relative;
+
+  &::before {
+    content: '';
+    height: 2px;
+    width: 124px;
+    background: $green;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -59px;
+    top: 68px;
+  }
+}
+
+.about_subtitle {
+  margin-bottom: 18px;
+
+  &:last-child {
+    margin-bottom: 35px;
+  }
+}
+
+.about_btn {
+  color: #FFF;
+  margin-top: 17px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: $font-base;
+  padding: 10px 33px 16px;
+  border: 2px solid $green;
+}

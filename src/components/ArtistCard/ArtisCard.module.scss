@@ -1,0 +1,16 @@
+@import "../../assets/styles/vars";
+
+.styles.card {
+  max-width: 245px;
+}
+
+.img {
+  max-width: 245px;
+  max-height: 245px;
+}
+
+.name_person {
+  margin-top: 20px;
+  font-family: $font-base;
+  text-align: center;
+}

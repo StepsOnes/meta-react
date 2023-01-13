@@ -1,0 +1,34 @@
+@import "../../assets/styles/vars";
+
+.title {
+  font-size: 51px;
+  line-height: 61px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  max-width: 340px;
+  margin-bottom: 115px;
+  line-height: 26px;
+}
+
+.row {
+  display: flex;
+  gap: 50px;
+}
+
+.col_pad {
+  padding-top: 70px;
+}
+
+.learn_more {
+  font-family: $font_base;
+  color: #000000;
+  text-decoration: none;
+  background: #8DFD1B;
+  min-width: 205px;
+  display: inline-block;
+  padding: 17px 40px 27px;
+  text-align: center;
+}

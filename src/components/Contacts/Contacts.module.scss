@@ -1,0 +1,41 @@
+@import "../../assets/styles/vars";
+
+.contacts {
+  padding: 200px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  span {
+    color: $green;
+  }
+  margin-bottom: 34px;
+}
+
+.col_content {
+  padding-top: 70px;
+}
+
+.col_img {
+  img {
+    width: 100%;
+  }
+}
+
+.text {
+  max-width: 350px;
+}
+
+.btn {
+  background: $green;
+  padding: 14px 31px;
+  font-family: $font-base;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 25px;
+  color: #000000;
+}

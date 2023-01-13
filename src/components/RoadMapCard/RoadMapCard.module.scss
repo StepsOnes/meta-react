@@ -1,0 +1,92 @@
+@import "../../assets/styles/vars";
+
+.card {
+  width: 540px;
+  border: 1px solid $green;
+  background: #222222;
+  position: relative;
+  z-index: 10;
+
+  &::before {
+    content: '';
+    width: 40px;
+    height: 1px;
+    transform: rotate(90deg) translateX(-47%);
+    position: absolute;
+    bottom: -80px;
+    left: 47%;
+    background: $green;
+  }
+
+  &:last-child::before {
+    display: none;
+  }
+}
+
+.card_header {
+  border-bottom: 1px solid $green;
+  padding: 13px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.number {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $green;
+  color: $green;
+  font-family: $font_base;
+  font-size: 28px;
+  line-height: 28px;
+
+
+  &.active {
+    background: $green;
+  }
+}
+
+.stage {
+  color: $green;
+  font-size: 8px;
+  line-height: 12px
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 13px;
+}
+
+.about {
+
+}
+
+.list {
+  li {
+    font-size: 11px;
+    line-height: 32px
+  }
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.content_img {
+  max-width: 129px;
+  max-height: 129px;
+}
+
+.content_about {
+  font-size: 11px;
+  line-height: 32px;
+  max-width: 300px;
+}

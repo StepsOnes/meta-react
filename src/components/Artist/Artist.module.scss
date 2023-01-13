@@ -1,0 +1,35 @@
+@import "../../assets/styles/vars";
+
+.line_text {
+  position: relative;
+  margin-bottom: 227px;
+}
+
+.line_text_title {
+  position: absolute;
+  font-size: 79px;
+  line-height: 88px;
+  font-family: $font_title;
+
+  &.line_text_title_01 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.line_text_title_02 {
+    left: 0;
+    transform: translateX(-150px);
+  }
+
+  &.line_text_title_03 {
+    right: 0;
+    transform: translateX(150px);
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 80px;
+}

@@ -1,0 +1,42 @@
+@import "../../assets/styles/vars";
+
+.footer {
+  background: #42006A;
+  color: #FFF;
+  padding: 100px 0 120px 0;
+  font-family: $font-base;
+}
+
+.footer_col {
+  max-width: 250px;
+}
+
+.copyright {
+  margin-top: 60px;
+}
+
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  li {
+    margin-bottom: 30px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+.text {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+
+.social_icons {
+  display: flex;
+  gap: 12px;
+}

@@ -1,0 +1,39 @@
+@import "../../assets/styles/vars";
+
+.card {
+  max-width:  320px;
+  text-align: center;
+}
+
+.img {
+  width: 320px;
+  height: 320px;
+}
+
+.name {
+  margin: 19px 0;
+  font-family: $font-base;
+}
+
+.position {
+  color: $green;
+  font-size: 11px;
+  line-height: 12px;
+  font-family: $font-base;
+  margin-bottom: 22px;
+}
+
+.group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 22px;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 12px;
+  line-height: 19px;
+  max-width: 238px;
+  margin: 0 auto;
+}

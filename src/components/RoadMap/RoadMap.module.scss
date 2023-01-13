@@ -1,0 +1,35 @@
+.road_map {
+  position: relative;
+}
+
+.title {
+  margin-bottom: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_dec {
+  position: absolute;
+
+  &.circle_dec_01 {
+    top: -70px;
+    left: 50px;
+  }
+
+  &.circle_dec_02 {
+    right: 200px;
+    top: 300px;
+  }
+
+  &.circle_dec_03 {
+    bottom: 0;
+    left: 0;
+  }
+}
+

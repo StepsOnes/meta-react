@@ -1,0 +1,83 @@
+@import "../../assets/styles/vars";
+
+.story_padding {
+  padding-top: 190px;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.tabs_wrapper {
+  display: flex;
+}
+
+.tabs_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs_button {
+  height: 72px;
+  width: 282px;
+  color: $green;
+  font-family: $font_base;
+  transition: 0.4s;
+  padding: 25px 28px 28px;
+  cursor: pointer;
+
+  &.active {
+    background: #222222;
+  }
+}
+
+.tab {
+  height: 538px;
+  width: 900px;
+  background: #222222;
+  padding: 60px;
+  display: none;
+  gap: 40px;
+
+  &.active {
+    display: flex;
+  }
+}
+
+.about {
+  max-width: 494px;
+}
+
+.about_title {
+  color: $green;
+  font-family: $font-base;
+  font-size: 21px;
+  line-height: 32px;
+  padding-left: 22px;
+  margin-bottom: 30px;
+  position: relative;
+
+  &::before {
+    content: '';
+    height: 2px;
+    width: 124px;
+    background: $green;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -59px;
+    top: 68px;
+  }
+}
+
+.about_subtitle {
+  margin-bottom: 18px;
+
+  &:last-child {
+    margin-bottom: 35px;
+  }
+}
+
+.tab_img {
+  //width: 172px;
+  //height: 253px;
+}
